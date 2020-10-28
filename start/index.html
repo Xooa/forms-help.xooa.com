@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Building an application with Form.IO.</title>
+    <meta name="description" content="The form based API platform.">
+    <meta name="author" content="Travis Tidwell">
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+    <link rel="stylesheet" href="assets/font-awesome-4.3.0/css/font-awesome.min.css">
+    <link href='assets/fonts/comfortaa.css' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="assets/css/reveal.css">
+    <link rel="stylesheet" href="assets/css/theme/league.css" id="theme">
+
+    <!-- Code syntax highlighting -->
+    <link rel="stylesheet" href="assets/lib/css/zenburn.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match(/print-pdf/gi) ? 'assets/css/print/pdf.css' : 'assets/css/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+
+    <!--[if lt IE 9]>
+    <script src="assets/lib/js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+<div class="reveal">
+
+    <!-- Any section element inside of this container is displayed as a slide -->
+    <div class="slides">
+        <section>
+            <p><img class="trans-image" style="height: 3em;" src="assets/images/formio-logo-lg.png" /></p>
+            <h3>The 5 minute guide</h3>
+        </section>
+        <section>
+            <p>Step 1: Create a project</p>
+            <small>For this demo we will click on the "Default" template</small>
+            <img class="trans-image" style="height:14em;" src="assets/images/formio-create-project.png" />
+        </section>
+        <section>
+            <p>Step 2: Read welcome screen</p>
+            <small>This will help familiarize yourself with how things are structured.</small>
+            <img class="trans-image" style="height:14em" src="assets/images/formio-welcome-modal.png" />
+        </section>
+        <section>
+            <p>Step 3: Edit the User Resource</p>
+            <small>We are going to add a Full Name field to this resource.</small>
+            <img class="trans-image" src="assets/images/formio-edit-user-resource.png" />
+        </section>
+        <section>
+            <p>Step 4: Add a <strong>Text Field</strong></p>
+            <small>by dragging and dropping the Text Field component on the form. Call it "Full Name"</small>
+            <img class="trans-image" style="height:13em" src="assets/images/formio-add-full-name.png" />
+        </section>
+        <section>
+            <p>Step 5: Save the form</p>
+            <small>And notice both the API and the Form was created</small>
+            <img class="trans-image" style="height:14em" src="assets/images/formio-user-resource.png" />
+        </section>
+        <section>
+            <p>Step 5: Edit the User Register Form</p>
+            <small>which is located in the Forms section</small>
+            <img class="trans-image" style="height:14em" src="assets/images/formio-edit-user-register.png" />
+        </section>
+        <section>
+            <p>Step 6: Add the User resource Full Name field</p>
+            <small>By dragging it from the User resource section.</small>
+            <img class="trans-image" style="height:14em" src="assets/images/formio-add-full-name-field.png" />
+        </section>
+        <section>
+            <p>Step 7: Press Save to see your form</p>
+            <img class="trans-image" style="height:14em" src="assets/images/formio-user-register-form.png" />
+        </section>
+        <section>
+            <p>Step 8: Preview your working application</p>
+            <small>Which shows your form changes within the application.</small>
+            <img class="trans-image" style="height:14em" src="assets/images/formio-app-preview.png" />
+        </section>
+        <section>
+            <p>Step 9: Download the application from GitHub</p>
+            <img class="trans-image" style="height:14em" src="assets/images/formio-download-github.png" />
+        </section>
+        <section>
+            <p>Step 10: Configure the application</p>
+            <small>by editing the <strong>/src/config.js</strong> file and change <strong>APP_URL</strong></small>
+            <img class="trans-image" style="height:14em" src="assets/images/formio-configure-app.png" />
+        </section>
+        <section>
+            <p>Step 11: Install Dependencies</p>
+            <ul>
+                <li>Node.js - <a target="_blank" href="https://nodejs.org/download/">https://nodejs.org/download</a></li>
+                <li><code>npm install -g gulp bower</code></li>
+            </ul>
+        </section>
+        <section>
+            <p>Step 12: Install and Run application from your Terminal</p>
+            <small>By typing the following in your terminal.</small></br>
+            <ul>
+                <li><code>bower install</code></li>
+                <li><code>npm install</code></li>
+                <li><code>gulp serve</code></li>
+            </ul>
+        </section>
+        <section>
+            <p>You now have a full working application running on Form.io!</p>
+            <img class="trans-image" style="height:14em" src="assets/images/formio-local-application.png" />
+        </section>
+        <section>
+            <p>Have fun with <strong style="font-family: 'Comfortaa', cursive;"><span style="color:#3071a9">form</span><span style="color:#eee;">.</span><span style="color:#449d44">io</span></strong>!</p>
+        </section>
+</div>
+</div>
+
+<script src="assets/lib/js/head.min.js"></script>
+<script src="assets/js/reveal.js"></script>
+
+<script>~
+
+    // Full list of configuration options available at:
+    // https://github.com/hakimel/reveal.js#configuration
+    Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+
+        transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+        // Optional reveal.js plugins
+        dependencies: [
+            {
+                src: 'assets/lib/js/classList.js', condition: function () {
+                return !document.body.classList;
+            }
+            },
+            {
+                src: 'assets/plugin/markdown/marked.js', condition: function () {
+                return !!document.querySelector('[data-markdown]');
+            }
+            },
+            {
+                src: 'assets/plugin/markdown/markdown.js', condition: function () {
+                return !!document.querySelector('[data-markdown]');
+            }
+            },
+            {
+                src: 'assets/plugin/highlight/highlight.js', async: true, condition: function () {
+                return !!document.querySelector('pre code');
+            }, callback: function () {
+                hljs.initHighlightingOnLoad();
+            }
+            },
+            {src: 'assets/plugin/zoom-js/zoom.js', async: true},
+            {src: 'assets/plugin/notes/notes.js', async: true}
+        ]
+    });
+
+</script>
+
+</body>
+</html>
