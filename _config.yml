@@ -1,0 +1,31 @@
+title : Form.io Help
+formio: <strong>&lt;<span class="text-primary">form</span>.<span class="text-secondary">io</span>&gt;</strong>
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  hard_wrap: false
+permalink: pretty
+exclude:
+  - CNAME
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - _site
+  - aws.json
+  - npm-debug.log
+  - gulpfile.js
+collections:
+  books:
+    output: true
+    permalink: /:path/
+  sections:
+    output: true
+    permalink: /:path/
+  chapters:
+    output: true
+    permalink: /:path/
+  paragraphs:
+    output: false
