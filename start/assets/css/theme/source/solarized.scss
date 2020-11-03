@@ -41,13 +41,14 @@ $violet:    #6c71c4;
 $blue:      #268bd2;
 $cyan:      #2aa198;
 $green:     #859900;
+$xooa:    	#E34F26;
 
 // Override theme settings (see ../template/settings.scss)
 $mainColor: $base00;
 $headingColor: $base01;
 $headingTextShadow: none;
 $backgroundColor: $base3;
-$linkColor: $blue;
+$linkColor: $xooa;
 $linkColorHover: lighten( $linkColor, 20% );
 $selectionBackgroundColor: $magenta;
 
