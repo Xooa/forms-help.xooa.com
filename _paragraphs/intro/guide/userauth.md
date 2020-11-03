@@ -101,9 +101,6 @@ We can now add a header to our application by editing the following file.
       </li>
     </ul>
     <ul class="nav navbar-nav ml-auto">
-      <li class="nav-item" routerLinkActive="active" *ngIf="!auth.authenticated">
-        <a class="nav-link" routerLink="auth">Login | Register</a>
-      </li>
       <li class="nav-item" *ngIf="auth.authenticated">
         <a class="nav-link" routerLink="/" (click)="auth.logout()"><span class="glyphicon glyphicon-off"></span> Logout</a>
       </li>
