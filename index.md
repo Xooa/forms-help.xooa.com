@@ -4,7 +4,7 @@ title: The <img src="/assets/img/formio-logo-white.png" style="margin-bottom:10p
 summary: These four sections are designed to get you from being a new user, to being a Form.io expert. Please let us know if you have any questions that are not answered on this site.
 ---
 <div class="container">
-<div class="row">
+<!-- <div class="row">
   <div class="col col-6">
     <div class="card mb-2 border">
       <div class="card-header bg-primary"><a class="card-title text-white" href="/intro/welcome/"><i class="fa fa-rocket"></i> Getting Started</a></div>
@@ -73,5 +73,5 @@ summary: These four sections are designed to get you from being a new user, to b
       </ul>
     </div>
   </div>
-</div>
+</div> -->
 </div>
