@@ -31,7 +31,6 @@
            'userguide/#groups': '/userguide/groups',
            'userguide/#introduction': '/userguide/introduction',
            'userguide/#projects': '/userguide/projects',
-           'userguide/#resources': '/userguide/resources',
            'userguide/#submissions': '/userguide/submissions',
            'userguide/#teams': '/userguide/teams',
            'userguide/#project-templates': '/userguide/project-templates',
@@ -102,22 +101,16 @@
            'userguide/#radio': '/userguide/form-components/#radio',
            'userguide/#add-form-component': '/userguide/form-components/#add-form-component',
            'userguide/#address': '/userguide/form-components/#address',
-           'userguide/#button': '/userguide/form-components/#button',
-           'userguide/#calculated-value': '/userguide/form-components/#calculated-value',
            'userguide/#checkbox': '/userguide/form-components/#checkbox',
            'userguide/#component-api': '/userguide/form-components/#component-api',
-           'userguide/#component-layout-settings': '/userguide/form-components/#component-layout-settings',
-           'userguide/#conditional-components': '/userguide/form-components/#conditional-components',
            'userguide/#content-component': '/userguide/form-components/#content-component',
            'userguide/#currency': '/userguide/form-components/#currency',
-           'userguide/#custom': '/userguide/form-components/#custom',
            'userguide/#datetime': '/userguide/form-components/#datetime',
            'userguide/#edit-form-component': '/userguide/form-components/#edit-form-component',
            'userguide/#email': '/userguide/form-components/#email',
            'userguide/#file': '/userguide/form-components/#file',
            'userguide/#hidden': '/userguide/form-components/#hidden',
            'userguide/#html-element-component': '/userguide/form-components/#html-element-component',
-           'userguide/#image': '/userguide/form-components/#image',
            'userguide/#number': '/userguide/form-components/#number',
            'userguide/#password': '/userguide/form-components/#password',
            'userguide/#phonenumber': '/userguide/form-components/#phonenumber',
@@ -282,22 +275,22 @@
   <link rel="stylesheet" href="{{ site.baseUrl }}/assets/index.css">
 
   <!-- Favicons -->
-  <link rel="apple-touch-icon" sizes="57x57" href="{{ site.baseUrl }}/assets/favicons/apple-touch-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="{{ site.baseUrl }}/assets/favicons/apple-touch-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="{{ site.baseUrl }}/assets/favicons/apple-touch-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="{{ site.baseUrl }}/assets/favicons/apple-touch-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="{{ site.baseUrl }}/assets/favicons/apple-touch-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="{{ site.baseUrl }}/assets/favicons/apple-touch-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="{{ site.baseUrl }}/assets/favicons/apple-touch-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="{{ site.baseUrl }}/assets/favicons/apple-touch-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseUrl }}/assets/favicons/apple-touch-icon-180x180.png">
-  <link rel="icon" type="image/png" href="{{ site.baseUrl }}/assets/favicons/favicon-32x32.png" sizes="32x32">
-  <link rel="icon" type="image/png" href="{{ site.baseUrl }}/assets/favicons/android-chrome-192x192.png" sizes="192x192">
-  <link rel="icon" type="image/png" href="{{ site.baseUrl }}/assets/favicons/favicon-96x96.png" sizes="96x96">
-  <link rel="icon" type="image/png" href="{{ site.baseUrl }}/assets/favicons/favicon-16x16.png" sizes="16x16">
+  <link rel="apple-touch-icon" sizes="57x57" href="{{ site.baseUrl }}/assets/favicons/favicon-xooa.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="{{ site.baseUrl }}/assets/favicons/favicon-xooa.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="{{ site.baseUrl }}/assets/favicons/favicon-xooa.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="{{ site.baseUrl }}/assets/favicons/favicon-xooa.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="{{ site.baseUrl }}/assets/favicons/favicon-xooa.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="{{ site.baseUrl }}/assets/favicons/favicon-xooa.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="{{ site.baseUrl }}/assets/favicons/favicon-xooa.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="{{ site.baseUrl }}/assets/favicons/favicon-xooa.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseUrl }}/assets/favicons/favicon-xooa.png">
+  <link rel="icon" type="image/png" href="{{ site.baseUrl }}/assets/favicons/favicon-xooa.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="{{ site.baseUrl }}/assets/favicons/favicon-xooa.png" sizes="192x192">
+  <link rel="icon" type="image/png" href="{{ site.baseUrl }}/assets/favicons/favicon-xooa.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="{{ site.baseUrl }}/assets/favicons/favicon-xooa.png" sizes="16x16">
   <link rel="manifest" href="{{ site.baseUrl }}/assets/favicons/manifest.json">
   <meta name="msapplication-TileColor" content="#da532c">
-  <meta name="msapplication-TileImage" content="{{ site.baseUrl }}/assets/favicons/mstile-144x144.png">
+  <meta name="msapplication-TileImage" content="{{ site.baseUrl }}/assets/favicons/favicon-xooa.png">
   <meta name="theme-color" content="#ffffff">
 </head>
 <body{% if page.app %} ng-app='{{ page.app }}'{% endif %}{% if page.controller %} ng-controller='{{ page.controller }}'{% endif %}>

@@ -24,7 +24,8 @@
     "deploy:test": "gulp build && bundle exec jekyll build --config _config.test.yml,_config.yml && gulp deploy:test",
     "deploy:prod": "gulp build && bundle exec jekyll build --config _config.prod.yml,_config.yml && gulp deploy:prod",
     "serve": "gulp build && bundle exec jekyll serve --config _config.dev.yml,_config.yml",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gulp": "gulp build"
   },
   "repository": {
     "type": "git",

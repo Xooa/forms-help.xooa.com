@@ -1,14 +1,15 @@
 // Variables
-$blue:    #0079C0 !default;
+$blue:    #E34F26 !default;
 $indigo:  #6610f2 !default;
 $purple:  #6f42c1 !default;
-$pink:    #e83e8c !default;
+$pink:    #E34F26 !default;
 $red:     #e74c3c !default;
 $orange:  #fd7e14 !default;
 $yellow:  #ffc107 !default;
 $green:   #4EAA17 !default;
 $teal:    #20c997 !default;
 $cyan:    #17a2b8 !default;
+$xooa:    #E34F26 !default;
 $secondary: $green !default;
 @import "../node_modules/bootswatch/dist/yeti/_variables.scss";
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
@@ -17,9 +18,9 @@ $fa-font-path: '../node_modules/font-awesome/fonts';
 @import '../node_modules/font-awesome/scss/font-awesome';
 @import '../node_modules/formiojs/dist/formio.full.css';
 @import './syntax.css';
-$primary-light: lighten($primary, 15%);
-$primary-dark: darken($primary, 10%);
-$primary-darker: darken($primary, 20%);
+$primary-light: lighten($xooa, 15%);
+$primary-dark: darken($xooa, 10%);
+$primary-darker: darken($xooa, 20%);
 
 div.highlight {
   padding: 8px;
@@ -177,8 +178,8 @@ pre.highlight {
   width: 7px;
 }
 .sidebar-container ::-webkit-scrollbar-thumb {
-  background-color: $primary;
-  -webkit-box-shadow: 0 0 1px rgba($primary, .5);
+  background-color: $xooa;
+  -webkit-box-shadow: 0 0 1px rgba($xooa, .5);
 }
 
 .navbar-brand {
@@ -204,7 +205,7 @@ a.panel-title:hover, a.panel-title:focus {
 
 nav.docs-nav {
   padding: 0;
-  border-bottom: 6px solid $primary-darker;
+  border-bottom: 6px solid $xooa;
   background-color: #eee;
   background-repeat: unset;
   background-attachment: scroll;
@@ -218,7 +219,7 @@ nav.docs-nav {
       padding: 8px;
     }
     li.active {
-      background-color: $primary;
+      background-color: $xooa;
       a {
         color: #eee !important;
       }
@@ -230,17 +231,17 @@ nav.docs-nav {
     li:hover {
       background-color: #fff;
       a {
-        color: #333 !important;
+        color: $xooa !important;
       }
     }
   }
 }
 
 .section-header ul.nav-tabs>li>a {
-  background-color: $primary;
+  background-color: $xooa;
   color: #eee;
   &:hover {
-    background-color: $primary-light;
+    background-color: $xooa;
   }
 }
 .section-header ul.nav-tabs>li.active>a {
@@ -249,7 +250,7 @@ nav.docs-nav {
 }
 
 a {
-  color: #0e5c8f;
+  color: $xooa;
 }
 a:hover {
   text-decoration: none;
@@ -258,7 +259,7 @@ h2[id] {
   padding-bottom: 9px;
   margin: 20px 0;
   border-bottom: 1px solid #eee;
-  color: #093e61;
+  color: $xooa;
 }
 
 h3[id] {
@@ -282,7 +283,7 @@ footer {
 }
 /* Page headers */
 .docs-header {
-  background-color: $primary-darker;
+  background-color: $xooa;
   margin-bottom: 10px;
   margin-top: -20px;
   font-size: 20px;
@@ -359,7 +360,7 @@ footer {
 .docs-sidebar .nav > li > a:hover,
 .docs-sidebar .nav > li > a:focus {
   padding-left: 19px;
-  color: $primary;
+  color: $xooa;
   text-decoration: none;
   background-color: #fff;
 }
@@ -368,9 +369,9 @@ footer {
 .docs-sidebar .nav > .active:focus > a {
   padding-left: 18px;
   font-weight: bold;
-  color: $primary-darker;
+  color: $xooa;
   background-color: transparent;
-  border-left: 2px solid $primary-darker;
+  border-left: 2px solid $xooa;
 }
 
 /* Nav: second level (shown on .active) */
@@ -496,3 +497,13 @@ table {
 }
 
 
+.cardbox{
+  border-top: 4px solid $xooa;
+  border-radius: 5px;
+}
+
+.title{
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
