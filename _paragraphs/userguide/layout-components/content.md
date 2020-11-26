@@ -1,9 +1,9 @@
 ---
 title: Content
 book: userguide
-chapter: form-components
+chapter: layout-components
 slug: content-component
-weight: 50
+weight: 9
 ---
 Content may be added to a form to provide non-field information. For example, if you need instructions at the top of a form that are for display only, use a Content component. There are no settings for a Content component and the value is *not* submitted back to the server.
 
